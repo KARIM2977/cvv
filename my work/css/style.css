@@ -1,0 +1,198 @@
+*{
+    list-style: none;
+}
+
+.ul-menu{
+    background-color: rgb(62, 59, 59);
+    color: aliceblue;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.li-menu{
+    float: right;
+}
+
+.a-menu{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 23px;
+    padding: 20px;
+    display: block;
+}
+.li-menu a:hover{
+    background-color: black;
+}
+
+.p-menu{
+   font-size: 30px;
+   display: inline;
+}
+
+.column{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.social{
+    width: 25px;
+    padding:5px;
+}
+
+.left{
+    width: 20%;
+    float: left;
+}
+
+.right{
+    width: 80%;
+    float: left;
+
+}
+
+.row{
+    padding: 5px;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.main{
+    background-color: gray;
+    display: block;
+    height: 25px;
+
+}
+
+.main span{
+    background-color: rgb(13, 0, 108);
+    height: 25px;
+    display: block;
+    color: rgb(255, 229, 229);
+}
+
+.Pac{
+    width: 92%;
+    animation: Pac 3s;
+}
+
+.Sho{
+    width: 85%;
+    animation: Sho 3s;
+}
+
+.Pas{
+    width: 91%;
+    animation: Pas 3s;
+}
+.Dri{
+    width: 92%;
+    animation: Dri 3s;
+}
+
+.Def{
+    width: 50%;
+    animation: Def 3s;
+}
+
+.Phy{
+    width: 72%;
+    animation: Phy 3s;
+}
+
+@keyframes Pac {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 92%;
+    }
+}
+
+@keyframes Sho {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes Pas {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 91%;
+    }
+}
+
+@keyframes Dri {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 92%;
+    }
+}
+
+@keyframes Def {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes Phy {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 72%;
+    }
+}
+ .test{
+    height: 50px;
+    width: 100%;
+    color: aliceblue;
+    background-color: rgb(62, 59, 59);
+    text-align: center;
+    font-size: 30px;
+ }
+
+ .pp{
+    color: black;
+    background-color:white;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+ }
+
+ .club{
+    width: 300px;
+    float: left;
+ }
+
+ .club img{
+    width: 150px;
+    height: 150px;
+ }
+@media screen and (max-width:800px){
+    .column{
+        width: 100%;
+    }
+}
